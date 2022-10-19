@@ -80,9 +80,10 @@ section {
 }
 
 .banner p {
+    opacity: 0;
     text-align: justify;
-    animation: fadeIn 3s linear forwards;
-    animation-delay: 50ms;
+    animation: fadeIn 2s linear forwards;
+    animation-delay: 1s;
 }
 
 .foto {
@@ -92,7 +93,7 @@ section {
     top: 50%;
     transform: translateY(-50%);
     animation: fadeIn 1s linear forwards;
-    animation-delay: 50ms;
+    animation-delay: 1s;
 }
 
 .banner p {

@@ -74,6 +74,8 @@ section .banner {
     padding-top: 170px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    animation: kiriKanan 1s linear forwards;
+    animation-delay: 50ms;
    
     
 }
@@ -89,12 +91,57 @@ section .banner {
 
 .banner .foto .fotoaing {
     
+    opacity: 0;
     width: 200px;
     height: 300px;
     padding-top: 10px;
     border-radius: 25%;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 1s;
 }
 
+@keyframes fadeIn
+{
+    0%
+    {
+        opacity: 0;
+    }
+
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes Atas 
+{
+    0%
+    {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+
+    100%
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes kiriKanan 
+{
+    0%
+    {
+        transform: translateX(10%);
+        opacity: 0;
+    }
+
+    100%
+    {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
 
 
