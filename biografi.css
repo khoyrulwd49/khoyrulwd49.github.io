@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color:#E1FFEE;
+    height: 60px;
+    z-index: 9999;
+    border-bottom: 2px solid black;
+    
+}
+
+.judul {
+    padding-top: 10px;
+    width: 800px;
+    padding-left: 100px;
+}
+
+.navbar{
+    padding-top: 15px;
+    list-style: none;
+    padding-left: 100px;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-size: 15pt;
+    color: #B9005B;
+}
+
+.navbar li a:hover{
+    color: #0088a9;
+}
+
+.judul {
+    display: flex;
+}
+
+section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(foto/bgputih.jpg);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    max-width: 700px;
+    
+}
+
+.banner h2 {
+    
+    font-size: 6em;
+    animation: Atas 1s linear forwards;
+    animation-delay: 50ms;
+}
+
+.banner h3 {
+    
+    font-size: 3em;
+    animation: atas 0.5s linear forwards;
+    animation-delay: 0s;
+}
+
+.banner p {
+    text-align: justify;
+    animation: fadeIn 3s linear forwards;
+    animation-delay: 50ms;
+}
+
+.foto {
+    opacity: 0;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 50ms;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+@keyframes fadeIn
+{
+    0%
+    {
+        opacity: 0;
+    }
+
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes Atas 
+{
+    0%
+    {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+
+    100%
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+

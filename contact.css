@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: flex;
+    background-color:#E1FFEE;
+    height: 60px;
+    z-index: 9999;
+    border-bottom: 2px solid black;
+    
+}
+
+.judul {
+    padding-top: 10px;
+    width: 800px;
+    padding-left: 100px;
+}
+
+.navbar{
+    padding-top: 15px;
+    list-style: none;
+    padding-left: 100px;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-size: 15pt;
+    color: #B9005B;
+}
+
+.navbar li a:hover{
+    color: #0088a9;
+}
+
+.judul {
+    display: flex;
+}
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(foto/bgputih.jpg);
+    background-size: cover;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+} 
+
+.contact .content h2     {
+    font-size: 36px;
+    font-weight: 500;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactInfo .box .padd2 {
+    padding-left: 18px;
+}
+
+.container .contactInfo .box .padd3 {
+    padding-left: 18px;
+}
+
+.container .contactInfo .foto1 {
+    width: 50px;
+    height: 50px;
+}
+
+.container .contactInfo .foto2 {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.container .contactInfo .foto3 {
+    width: 30px;
+    height: 30px;
+}
+
+.container .contactInfo .box .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%;
+    padding: 5px;
+}
+
+.contact .inputBox input,
+.contact .inputBox textarea
+{
+    width: 100%;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    resize: none;
+
+}
+
+.contactForm .inputBox input[type="button"]
+{
+    width: 100px;
+    background: #00bcd4;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.contactForm .inputBox input[type="button"]:hover
+{
+    width: 100px;
+    background: #04d6f2;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+
+
+
