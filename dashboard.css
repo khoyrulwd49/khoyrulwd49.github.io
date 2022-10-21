@@ -95,9 +95,32 @@ section .banner {
     width: 200px;
     height: 300px;
     padding-top: 10px;
-    border-radius: 25%;
+    border-radius: 50%;
     animation: fadeIn 1s linear forwards;
     animation-delay: 1s;
+}
+
+.banner .foto .fotoaing:hover {
+    opacity: 1;
+    animation: fotoku 1s linear forwards;
+    animation-delay: 50ms;
+}
+
+@keyframes fotoku {
+    0%
+    {
+        width: 200px;
+        height: 300px;
+    }
+
+    100%
+    {
+        width: 200px;
+        height: 300px;
+        border-radius: 25%;
+        
+        
+    }
 }
 
 @keyframes fadeIn
